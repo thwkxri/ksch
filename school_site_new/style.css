@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+
+  background:  #87CEEB;
+}
+
+
+
+.container{
+  width: 100%;
+  text-align: center;
+}
+
+.header{
+  display: flex;
+  height: 120px;
+  background-color: #69c;
+}
+
+.gerb-img{
+  
+
+  width: 50px;
+  height: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 40px;
+
+}
+
+.header-text{
+
+  font-family: 'Source Sans 3', sans-serif;
+  color: white;
+  padding-left: 10px;
+  line-height: 130px;
+  
+}
+
+.nav-list{
+  height: 50px;
+  
+  width: 100%;
+  line-height: 50px;
+  background-color: #069;
+  display: flex;
+  list-style-type: none;
+
+}
+
+
+
+.list-elem{
+  padding: 0 40px; /* Внутренний отступ */
+
+  transition: background-color 0.2s ease; /* Плавный переход цвета фона */
+  
+  
+  font-size: 22px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.list-elem a{
+  text-decoration: none;
+  color: white;
+
+}
+
+
+.list-elem:hover{
+  cursor: pointer;
+  background-color: #69c;
+}
+
+.main-caption{
+  display: flex;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.main-img{
+  width: 20px;
+  height: 20px;
+  
+  
+}
+
+.main-name{
+  color: black;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 19px;
+  padding-left: 5px;
+  line-height: 20px;
+}
+
+.main-page-caption{
+  padding-top: 40px;
+  text-align: center;
+  color: black;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.school-img{
+  margin: 0 auto;
+  padding-top: 20px;
+  width: 50%;
+  height: 500px;
+  display: flex;
+  border-radius: 1%;
+  
+}
+
+.quote{
+  background-color: #B4E4F6; /* Немного темнее оттенок белого */
+  border-radius: 1%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  position: relative;
+  margin: 40px auto;
+  width: 600px;
+  height: 200px;
+  
+
+
+  text-align: center;
+  
+}
+
+.quote-text{
+  position: absolute;
+  top: 50%;
+  padding: 0 40px;
+  transform: translate(0,-50%);
+  text-align: justify;
+  color: black;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+
+
+.mark-span-1, .mark-span-2{
+  font-size: 60px;
+}
+
+.mark-span-1{
+  position: absolute;
+  
+  left: 0;
+  bottom: 90%;
+  
+}
+
+.mark-span-2{
+  position: absolute;
+  right: 0;
+  top: 87%;
+  
+  
+}
+
+.VK{
+  
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 20px;
+  margin-left: auto; /* Размещение справа */
+  padding-right: 20px;
+  line-height: 22px;
+}
+
+.VK-img{
+  width: 65px;
+  height: 50px;
+}
+
+.VK-img:hover{
+  width: 70px;
+  height: 55px;
+}
+
+.prof-objects{
+  text-align: center;
+  width: 100%;
+}
+
+
+.director{
+  border-radius: 1%;
+  margin: 0 auto;
+  background: #B4E4F6;
+  width: 950px;
+  height: 580px;
+  position: relative;
+  margin-bottom: 140px;
+}
+
+.dir-img{
+  left: 40px;
+  top: 40px;
+  position: absolute;
+  height: 305.5px;
+  width: 300px;
+  border-radius: 5%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dir-name{
+  font-family: 'Source Sans 3', sans-serif;
+  position: absolute;
+  left: 380px;
+  text-align: left;
+  top: 35px;
+  font-size: 25px;
+ 
+}
+
+
+
+.info-dir{
+  
+  position: absolute;
+  list-style-type: none;
+  font-size: 22px;
+  font-family: 'Source Sans 3', sans-serif;
+  left: 380px;
+  top: 120px;
+}
+
+.info-dir-elem{
+  text-align: left;
+  padding-top: 15px;
+}
+
+.dir-button{
+  
+  width: 100px;
+  height: 19px;
+  all: unset;
+  background:  #87CEEB;
+  border-radius: 40px;
+  font-size: 22px;
+  line-height: 19px;
+  padding: 15px 30px;
+  font-family: 'Source Sans 3', sans-serif;
+  cursor: pointer;
+}
+
+.dir-butt{
+  width: 400px;
+  position: absolute;
+  bottom: 155px;
+  left: -8.5px;
+  
+}
+
+.dir-butt-link{
+  text-decoration: none;
+  color: black;
+}
+
+.dir-button:hover{
+  background-color: #59bce3;
+  transition: background-color 0.2s ease; /* Плавный переход цвета фона */
+}
+
+.about-dir{
+  text-align: left;
+  position: absolute;
+  bottom: 38px;
+  font-size: 21px;
+  font-family: 'Source Sans 3', sans-serif;
+  left: 40px;
+  right: 40px;
+}
+
+.prof-obj{
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding-bottom: 140px;
+  list-style-type:  none;
+
+}
+
+.list-elem-obj{
+  
+  margin: 10px; /* Внешний отступ между блоками */
+  display: block;
+  padding: 0 40px; /* Внутренний отступ */
+  width: 200px;
+  margin: 0 40px; /* Внутренний отступ */
+  height: 100px;
+  background-color: #B4E4F6; 
+  border-radius: 5%;
+  
+  font-size: 22px;
+  font-family: 'Source Sans 3', sans-serif;
+  position: relative;
+  
+}
+
+.prof-obj-text{
+  position: absolute;
+  width: 70%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.table-info-name{
+  
+  font-size: 30px;
+  padding-top: 40px;
+  text-align: center;
+ 
+  color: black;
+  font-family: 'Source Sans 3', sans-serif;
+  padding-bottom: 10px;
+}
+
+.list-info{
+  
+  margin: 0 auto;       
+  border-radius: 1%;
+  width: 60%;
+  
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+
+  
+  display: inline-block;
+  
+}
+
+.info-list{
+
+  text-align: left;
+  border-radius: 1%;
+  background-color: #B4E4F6; /* Немного темнее оттенок белого */
+  padding-top: 20px;
+  list-style-type: none;
+  font-size: 24px;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.info-list-elem{
+ 
+ padding: 10px;
+ border-bottom: 3px solid #87CEEB;
+ 
+}
+
+.telefon, #mail{
+  text-decoration: none;
+  color: steelblue;
+}
+
+.telefon:hover, #mail:hover{
+  color: navy;
+}
