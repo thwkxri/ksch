@@ -200,7 +200,7 @@ body {
   left: 40px;
   top: 40px;
   position: absolute;
-  height: 305.5px;
+  height: 313px;
   width: 300px;
   border-radius: 5%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -250,7 +250,7 @@ body {
 .dir-butt{
   width: 400px;
   position: absolute;
-  bottom: 155px;
+  bottom: 147px;
   left: -8.5px;
   
 }
@@ -268,7 +268,7 @@ body {
 .about-dir{
   text-align: left;
   position: absolute;
-  bottom: 38px;
+  bottom: 35px;
   font-size: 21px;
   font-family: 'Source Sans 3', sans-serif;
   left: 40px;
