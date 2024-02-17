@@ -6,7 +6,6 @@
 }
 
 body {
-
   background:  #87CEEB;
 }
 
@@ -24,8 +23,6 @@ body {
 }
 
 .gerb-img{
-  
-
   width: 50px;
   height: 50px;
   margin-top: auto;
@@ -92,7 +89,7 @@ body {
 }
 
 .main-name{
-  color: black;
+
   font-family: 'Source Sans 3', sans-serif;
   font-size: 19px;
   padding-left: 5px;
